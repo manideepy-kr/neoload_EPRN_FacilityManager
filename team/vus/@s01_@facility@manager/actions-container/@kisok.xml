@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Kisok" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="cd466b6b-11e1-48e6-9454-4eecf1dc03e0" weightsEnabled="false">
+    <weighted-embedded-action uid="28865ee6-712c-4f74-8b35-cc605cbd802d"/>
+    <weighted-embedded-action uid="00403734-e76b-49c6-a3af-8be58b9ea963"/>
+</basic-logical-action-container>

@@ -1,0 +1,50 @@
+<http-page executeResourcesDynamically="false"
+    name="S01_T03.4_EmployeeSinglePost" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s01_@facility@manager/%resources%/recorded-artifacts/3a6e79b7-9525-441c-9d5f-e279fd26ee1a.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3a6e79b7-9525-441c-9d5f-e279fd26ee1a">
+    <embedded-action>1ad9c53b-815c-404b-b744-4a931fc724bb</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_7ef702c9-ee0d-4e92-8161-ea827d49da75.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/employees/clinic-groups"
+    path="/api/employees/clinic-groups" postCharset="" postType="4"
+    recordedArtifactZipFileName="team/vus/@s01_@facility@manager/%resources%/recorded-artifacts/3a6e79b7-9525-441c-9d5f-e279fd26ee1a.zip"
+    recordedResponseCode="201" responseSize="74"
+    serverUid="hw-facilitymanager-qa.kroger.com"
+    slaProfileEnabled="false" uid="1ad9c53b-815c-404b-b744-4a931fc724bb" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e585b0a5-86ac-457f-a749-d4c28fd5c534.0</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e585b0a5-86ac-457f-a749-d4c28fd5c534.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Authorization" value="${ListVariable_beareToken.col_0}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Cookie" value="JSESSIONID=D6C3698F3A134ABBAB482259A0FDAB40; route=1675045569.736.168354.197866"/>
+    <header name="Host" value="hw-facilitymanager-qa.kroger.com"/>
+    <header name="User-Agent" value="PostmanRuntime/7.30.0"/>
+    <responseHeaders>HTTP/1.1 201 &#xd;
+Date: Mon, 30 Jan 2023 23:57:15 GMT&#xd;
+Content-Type: application/json;charset=UTF-8&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+Strict-Transport-Security: max-age=15724800; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Content-Encoding: gzip&#xd;
+Vary: Accept-Encoding</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{
+  "groupName": "HWART-87701 Group 4",
+  "groupShortName": "HWG4"
+}]]></textPostContent>
+</http-action>

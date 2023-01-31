@@ -1,0 +1,1 @@
+<variable-random-number max-value="80" min-value="1" name="FileVariable_Attribute_number" order="1" policy="1" random-seed="false" range="2" uid="ff9e9fb4-744b-46ee-b45f-1e687ada3932" whenOutOfValues="CYCLE_VALUES"/>

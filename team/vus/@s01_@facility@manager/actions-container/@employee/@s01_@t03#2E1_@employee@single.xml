@@ -1,0 +1,45 @@
+<http-page executeResourcesDynamically="false"
+    name="S01_T03.1_EmployeeSingle" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s01_@facility@manager/%resources%/recorded-artifacts/f7571899-f59d-4141-a432-9940d49fc98c.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f7571899-f59d-4141-a432-9940d49fc98c">
+    <embedded-action>c0adbfca-0dae-40ef-98ea-374bdc846696</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_6d335a74-480d-4f73-8f80-df9f6579fad4.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/api/employees/clinic-groups/6"
+    path="/api/employees/clinic-groups/6" postCharset="" postType="2"
+    recordedArtifactZipFileName="team/vus/@s01_@facility@manager/%resources%/recorded-artifacts/f7571899-f59d-4141-a432-9940d49fc98c.zip"
+    recordedResponseCode="200" responseSize="83"
+    serverUid="hw-facilitymanager-qa.kroger.com"
+    slaProfileEnabled="false" uid="c0adbfca-0dae-40ef-98ea-374bdc846696" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_899ed50b-c53a-47ec-ae06-faa924ced6e2.0</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_899ed50b-c53a-47ec-ae06-faa924ced6e2.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Authorization" value="${ListVariable_beareToken.col_0}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="JSESSIONID=EB2F7579CB47E922581E9977396DE65D; route=1675045569.736.168354.197866"/>
+    <header name="Host" value="hw-facilitymanager-qa.kroger.com"/>
+    <header name="User-Agent" value="PostmanRuntime/7.30.0"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Date: Mon, 30 Jan 2023 23:11:40 GMT&#xd;
+Content-Type: application/json;charset=UTF-8&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+Strict-Transport-Security: max-age=15724800; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Content-Encoding: gzip&#xd;
+Vary: Accept-Encoding</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

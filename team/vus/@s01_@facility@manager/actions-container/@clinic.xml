@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Clinic" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="2a7eb9c1-63a4-48c1-a1d8-121e8ad05edb" weightsEnabled="false">
+    <weighted-embedded-action uid="ac0286bd-ebcf-4128-a502-19130b8f5005"/>
+    <weighted-embedded-action uid="c8aa1406-1d64-4bd7-bbed-fd98b0dce7cb"/>
+</basic-logical-action-container>

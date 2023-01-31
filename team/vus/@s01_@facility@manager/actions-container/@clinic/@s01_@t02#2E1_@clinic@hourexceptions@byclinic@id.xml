@@ -1,0 +1,57 @@
+<http-page executeResourcesDynamically="false"
+    name="S01_T02.1_ClinicHourexceptionsByclinicId"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s01_@facility@manager/%resources%/recorded-artifacts/ac0286bd-ebcf-4128-a502-19130b8f5005.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ac0286bd-ebcf-4128-a502-19130b8f5005">
+    <embedded-action>9486dccf-4db9-4d2a-bf35-3bd298f5ff87</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_b1bbc5a4-e917-402e-9dad-d8495fe0e294.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="PUT" name="/api/clinics/8/hours-exceptions"
+    path="/api/clinics/8/hours-exceptions" postCharset="" postType="4"
+    recordedArtifactZipFileName="team/vus/@s01_@facility@manager/%resources%/recorded-artifacts/ac0286bd-ebcf-4128-a502-19130b8f5005.zip"
+    recordedResponseCode="200" responseSize="324"
+    serverUid="hw-facilitymanager-qa.kroger.com"
+    slaProfileEnabled="false" uid="9486dccf-4db9-4d2a-bf35-3bd298f5ff87" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cf7ae108-ac7f-4d0e-99ee-dfe754b3ecb7.0</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cf7ae108-ac7f-4d0e-99ee-dfe754b3ecb7.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br"/>
+    <header name="Authorization" value="${ListVariable_beareToken.col_0}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Cookie" value="JSESSIONID=1B35EB0E8C952548B69A3BE14D4D13AA; route=1675045569.736.168354.197866"/>
+    <header name="Host" value="hw-facilitymanager-qa.kroger.com"/>
+    <header name="User-Agent" value="PostmanRuntime/7.30.0"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Date: Mon, 30 Jan 2023 16:46:56 GMT&#xd;
+Content-Type: application/json;charset=UTF-8&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 1; mode=block&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+Strict-Transport-Security: max-age=15724800; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Content-Encoding: gzip&#xd;
+Vary: Accept-Encoding</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{
+  "dayOfWeek": 28842521,
+  "openTime": "ipsum aliqua do sit Excepteur",
+  "closeTime": "irure incididunt ut Ut cupidatat",
+  "lunchEndTime": "esse occaecat adipisicing",
+  "lunchStartTime": "culpa nostrud labore",
+  "description": "adipisicing consequat",
+  "dateOfService": "1991-06-19",
+  "timezone": "consequat tempor"
+}]]></textPostContent>
+</http-action>

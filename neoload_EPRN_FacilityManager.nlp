@@ -1,0 +1,14 @@
+# Project description file
+
+project.name=neoload_EPRN_FacilityManager
+project.version=8.4
+project.original.version=8.4
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=8.1.1
+project.is-open-test-settings-after-upload=false
+project.id=6bad79bd-4c31-418e-957b-8cd0cdeb1601
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=manideepy-kr/neoload_EPRN_FacilityManager
